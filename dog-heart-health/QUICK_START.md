@@ -14,7 +14,6 @@ The website features a **sticky navigation bar** at the top with quick links to 
 - Supplements
 - Prevention
 - Warning Signs
-- At-Risk Breeds
 - References
 
 Click any link to jump directly to that section.
@@ -25,11 +24,6 @@ Click any link to jump directly to that section.
 - **Warning Signs of Heart Disease** - Learn what symptoms require immediate veterinary attention
 - **Preventive Care & Early Detection** - Understand screening schedules and tests
 - **Nutrition** - Evidence-based dietary recommendations (including FDA grain-free diet findings)
-
-### For Specific Breeds:
-- **Breeds at Higher Risk** - Find your dog's breed and learn specific risks and screening recommendations
-  - Small breeds (Cavalier King Charles Spaniels, Dachshunds, Chihuahuas, etc.)
-  - Large breeds (Doberman Pinschers, Boxers, Great Danes, Golden Retrievers, etc.)
 
 ### For Dogs with Heart Disease:
 - **Evidence-Based Supplements** - Research-backed supplements with dosages
@@ -70,7 +64,6 @@ The website can be printed for reference:
 This resource can be shared with:
 - Fellow dog owners
 - Veterinary clinics for client education
-- Breeders for health information
 - Rescue organizations
 
 ## Questions Not Answered?
@@ -78,7 +71,6 @@ This resource can be shared with:
 The **References** section provides:
 - Links to veterinary organizations
 - Journal citations for further reading
-- Breed-specific health resources
 - FDA resources for ongoing updates
 
 ---

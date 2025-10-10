@@ -44,17 +44,10 @@ This static website provides comprehensive, fact-checked information about impro
    - Early subtle signs
    - Home monitoring techniques (resting respiratory rate)
 
-7. **Breeds at Higher Risk**
-   - Small breeds prone to Chronic Valvular Disease
-   - Large breeds prone to Dilated Cardiomyopathy
-   - Breed-specific screening recommendations
-   - Genetic testing information
-
-8. **Scientific References & Resources**
+7. **Scientific References & Resources**
    - 8 peer-reviewed journal citations
    - Veterinary organization resources
    - FDA resources on diet-associated DCM
-   - Breed-specific health organizations
 
 ## Evidence Sources
 
@@ -80,8 +73,6 @@ All information is compiled from:
 
 4. **Omega-3 Benefits**: Multiple studies showing cardiovascular benefits of EPA and DHA supplementation
 
-5. **Breed Predispositions**: Cavalier King Charles Spaniels with up to 100% incidence of mitral valve disease by age 10; Dobermans with 50-60% DCM incidence
-
 ## Website Features
 
 - **Minimalistic Design**: Clean, professional layout focused on readability
@@ -92,7 +83,6 @@ All information is compiled from:
   - Warning boxes for urgent information
   - Info boxes for important guidelines
   - Supplement cards with evidence levels
-  - Breed cards with risk levels
 - **Print-Friendly**: Optimized CSS for printing reference materials
 
 ## Medical Disclaimer
@@ -121,7 +111,6 @@ Open `index.html` in any modern web browser. No server or additional dependencie
 
 - Dog owners seeking evidence-based health information
 - Veterinary professionals for client education
-- Breeders implementing health screening programs
 - Rescue organizations educating adopters
 
 ## Last Updated

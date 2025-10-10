@@ -112,56 +112,11 @@ This document summarizes evidence-based findings on canine cardiovascular health
 
 ---
 
-## 5. BREED-SPECIFIC RISKS
-
-### Extremely High Risk (50-100% incidence):
-
-**Cavalier King Charles Spaniel**
-- Risk: Up to 100% by age 10
-- Condition: Mitral valve disease
-- Screening: Start at age 1
-
-**Doberman Pinscher**
-- Risk: 50-60% affected
-- Condition: Dilated Cardiomyopathy (DCM)
-- Genetic testing available (PDK4 gene mutation)
-- Screening: Start at age 2
-
-**Boxer**
-- Risk: Very High
-- Condition: Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
-- CoQ10 supplementation may help
-- Screening: Start at age 1-2
-
-**Irish Wolfhound**
-- Risk: Very High
-- Condition: Atrial fibrillation common
-- Short lifespan partly due to heart disease
-
-### High Risk Breeds:
-
-**Small Breeds (Valvular Disease)**:
-- Dachshunds
-- Chihuahuas
-- Miniature Poodles
-- Cocker Spaniels
-- Yorkshire Terriers
-
-**Large Breeds (DCM)**:
-- Great Danes
-- Golden Retrievers (often taurine-deficiency related)
-- Saint Bernards
-- Newfoundlands
-- Portuguese Water Dogs
-
----
-
-## 6. PREVENTIVE CARE PROTOCOLS
+## 5. PREVENTIVE CARE PROTOCOLS
 
 ### Examination Schedule:
 - **Dogs under 7 years**: Annual exams
 - **Senior dogs (7+ years)**: Bi-annual exams
-- **High-risk breeds**: Earlier and more frequent screening
 
 ### Screening Tests (Evidence-Based):
 
@@ -194,7 +149,7 @@ This document summarizes evidence-based findings on canine cardiovascular health
 
 ---
 
-## 7. WARNING SIGNS (EMERGENCY)
+## 6. WARNING SIGNS (EMERGENCY)
 
 ### Seek Immediate Veterinary Care:
 🚨 Persistent coughing (especially at night)  
@@ -213,7 +168,7 @@ This document summarizes evidence-based findings on canine cardiovascular health
 
 ---
 
-## 8. PEER-REVIEWED SOURCES
+## 7. PEER-REVIEWED SOURCES
 
 1. Freeman, L.M., et al. (2018). "Diet-associated dilated cardiomyopathy in dogs." *JAVMA*, 253(11), 1390-1394.
 
@@ -233,7 +188,7 @@ This document summarizes evidence-based findings on canine cardiovascular health
 
 ---
 
-## 9. ORGANIZATIONAL GUIDELINES
+## 8. ORGANIZATIONAL GUIDELINES
 
 ### Sources of Clinical Protocols:
 - **ACVIM** (American College of Veterinary Internal Medicine) - Consensus guidelines
@@ -244,11 +199,10 @@ This document summarizes evidence-based findings on canine cardiovascular health
 
 ---
 
-## 10. KEY TAKEAWAYS
+## 9. KEY TAKEAWAYS
 
 ✅ **Diet Matters**: Feed grain-inclusive diets from reputable manufacturers  
-✅ **Breed Awareness**: Know your dog's specific risks  
-✅ **Early Screening**: Start before symptoms appear for high-risk breeds  
+✅ **Early Screening**: Start before symptoms appear  
 ✅ **Supplements Help**: Omega-3s, CoQ10, and Taurine have strong evidence  
 ✅ **Weight Control**: Obesity significantly increases risk  
 ✅ **Dental Care**: Prevents heart infections  

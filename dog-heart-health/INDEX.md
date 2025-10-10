@@ -25,7 +25,6 @@ dog-heart-health/
 - Evidence-Based Supplements
 - Preventive Care & Early Detection
 - Warning Signs of Heart Disease
-- Breeds at Higher Risk
 - Scientific References & Resources
 
 ### 2. styles.css
@@ -64,7 +63,6 @@ dog-heart-health/
 - Nutrition findings (FDA investigation)
 - Supplement evidence levels
 - Exercise research
-- Breed-specific risks
 - Preventive care protocols
 - Warning signs
 - Peer-reviewed sources
@@ -76,10 +74,6 @@ dog-heart-health/
 → Start with **index.html** (open in browser)  
 → Read **QUICK_START.md** for navigation tips  
 → Reference **RESEARCH_SUMMARY.md** for key facts  
-
-### For Specific Breeds:
-→ Go to "Breeds at Higher Risk" section in **index.html**  
-→ Find your breed and note screening recommendations  
 
 ### For Emergency Reference:
 → Bookmark "Warning Signs" section in **index.html**  
@@ -98,8 +92,7 @@ dog-heart-health/
 - **Total Size**: ~80KB
 - **Images**: Public domain from Wikimedia Commons
 - **References**: 8 peer-reviewed studies
-- **Sections**: 8 major content sections
-- **Breeds Covered**: 14 specific high-risk breeds
+- **Sections**: 7 major content sections
 
 ## 🔬 Evidence Quality
 
@@ -131,7 +124,6 @@ dog-heart-health/
 
 ### Educational Value:
 - Comprehensive coverage of topic
-- Breed-specific information
 - Home monitoring instructions
 - Emergency warning signs
 - Preventive care protocols
