@@ -1,0 +1,481 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2c5f7f;
+    --secondary-color: #4a90b8;
+    --accent-color: #e67e22;
+    --success-color: #27ae60;
+    --warning-color: #f39c12;
+    --danger-color: #e74c3c;
+    --text-color: #333;
+    --text-light: #666;
+    --bg-color: #f8f9fa;
+    --white: #ffffff;
+    --border-color: #dee2e6;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Navigation */
+nav {
+    background-color: var(--white);
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    background-color: var(--white);
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+section h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+section h3 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+section h4 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Content Boxes */
+.content-box {
+    margin: 1.5rem 0;
+}
+
+.content-box p {
+    margin-bottom: 1rem;
+}
+
+.content-box ul, .content-box ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-box li {
+    margin-bottom: 0.5rem;
+}
+
+/* Special Text Styles */
+.fact {
+    background-color: #e8f4f8;
+    padding: 1rem;
+    border-left: 4px solid var(--secondary-color);
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+.important {
+    background-color: #fff3cd;
+    padding: 1rem;
+    border-left: 4px solid var(--warning-color);
+    margin: 1rem 0;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Nutrient Grid */
+.nutrient-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.nutrient-card {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nutrient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nutrient-card h4 {
+    color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+}
+
+/* Exercise Table */
+.exercise-table {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white);
+}
+
+thead {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Warning Boxes */
+.warning-box {
+    background-color: #fff3cd;
+    border: 2px solid var(--warning-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.warning-box.critical {
+    background-color: #f8d7da;
+    border-color: var(--danger-color);
+}
+
+.warning-box h3, .warning-box h4 {
+    color: var(--danger-color);
+    margin-top: 0;
+}
+
+/* Info Boxes */
+.info-box {
+    background-color: #d1ecf1;
+    border: 2px solid #17a2b8;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.info-box h4 {
+    color: #17a2b8;
+    margin-top: 0;
+}
+
+/* Supplement Cards */
+.supplement-card {
+    background-color: #f8f9fa;
+    border-left: 4px solid var(--success-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+.supplement-card h4 {
+    color: var(--success-color);
+    margin-top: 0;
+}
+
+.limited-evidence {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+/* Screening Box */
+.screening-box {
+    background-color: #e8f4f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.screening-box h4 {
+    color: var(--secondary-color);
+    margin-top: 0;
+}
+
+/* Monitoring Box */
+.monitoring-box {
+    background-color: #f8f9fa;
+    border: 2px solid var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.monitoring-box h4 {
+    color: var(--secondary-color);
+    margin-top: 0;
+}
+
+.monitoring-box ol {
+    margin-left: 2rem;
+}
+
+/* Breed Grid */
+.breed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.breed-card {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.breed-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: var(--secondary-color);
+}
+
+.breed-card h4 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+/* Images */
+.image-container {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.image-credit {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* References */
+.references-list {
+    margin-left: 2rem;
+    line-height: 1.8;
+}
+
+.references-list li {
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.org-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.org-list li {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border-left: 4px solid var(--secondary-color);
+}
+
+/* Disclaimer Box */
+.disclaimer-box {
+    background-color: #fff3cd;
+    border: 3px solid var(--warning-color);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.disclaimer-box h4 {
+    color: var(--warning-color);
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer-content p {
+    margin-bottom: 0.5rem;
+}
+
+.small-print {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    section h2 {
+        font-size: 1.75rem;
+    }
+
+    .nutrient-grid,
+    .breed-grid {
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 0.75rem 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 0 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    header {
+        padding: 2rem 1rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    nav {
+        display: none;
+    }
+
+    section {
+        page-break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid var(--border-color);
+    }
+
+    .breed-card,
+    .nutrient-card {
+        page-break-inside: avoid;
+    }
+}
