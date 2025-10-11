@@ -12,10 +12,13 @@
             <h1>Life Docs</h1>
             <p class="tagline">Evidence-Based Health & Wellness Knowledge Base</p>
         </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+            ☰ Menu
+        </button>
     </header>
 
     <div class="container">
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
             <h3>Navigation</h3>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -89,5 +92,29 @@
             <p>Last Updated: October 2025</p>
         </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        menuToggle.addEventListener('click', function() {
+            sidebar.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+            menuToggle.textContent = sidebar.classList.contains('active') ? '✕ Close' : '☰ Menu';
+        });
+
+        // Close sidebar when clicking on a link (mobile only)
+        const sidebarLinks = sidebar.querySelectorAll('a');
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 768) {
+                    sidebar.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                    menuToggle.textContent = '☰ Menu';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
